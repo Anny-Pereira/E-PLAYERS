@@ -112,7 +112,7 @@ h1 {
 }
 
 .ligas {
-    background-image: linear-gradient(0deg, rgba(70, 68, 185, 0.7), rgba(70, 68, 185, 0.7)), url(bg-lol.jpg);
+    background-image: linear-gradient(0deg, rgba(70, 68, 185, 0.7), rgba(70, 68, 185, 0.7)), url(imagens/bg-lol.jpg);
     /* clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 40%, 100% 0, 100% 61%, 100% 60%, 0 100%, 100% 100%, 100% 0); */
     height: 600px;
     padding-top: 57px;

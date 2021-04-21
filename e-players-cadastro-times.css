@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.banner_cadastro {
+    background: url(fundo_cadastro_times.png);
+}
+
+.cadastro {
+    height: 779px;
+}
+
+.caixa_cadastro {
+    height: 340px;
+}
+
+.item_cadastro_emblema {
+    margin-right: 429px;
+}
+
+.emblema {
+    width: 146px;
+    height: 30px;
+}
+
+.emblema span {
+    height: 100%;
+    color: #000000;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #001F70;
+    border-color: #001F70;
+}

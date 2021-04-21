@@ -83,6 +83,7 @@ button {
     height: 40px;
     background-color: #C31616;
     border-radius: 10px;
+    border-color: #C31616;
     color: #ffffff;
     font-family: Roboto;
     font-weight: 700;
@@ -139,6 +140,7 @@ button {
 .linha2 {
     background: none;
     border-bottom: none;
+    border-top: none;
 }
 
 .linha3 {

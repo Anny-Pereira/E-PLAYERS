@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-PLAYERS CADASTRO DE JOGADOR</title>
+    <title>E-PLAYERS CADASTRO DE TIMES</title>
     <link rel="stylesheet" href="e-players.css">
     <link rel="stylesheet" href="e-players-cadastro-jogador.css">
+    <link rel="stylesheet" href="e-players-cadastro-times.css">
 </head>
 <body>
     <header>
@@ -23,48 +24,40 @@
     </header>
     <main>
         <section class="banner_cadastro" id="banner">
-            <h1>Cadastro de Jogador</h1>
+            <h1>Cadastro de Times</h1>
         </section>
         <section class="cadastro">
             <div class="grid espaçamento_section">
                 <div class="caixa_cadastro">
                     <div class="item_cadastro">
-                        <span class="letter_texto">Nome do jogador:</span>
+                        <span class="letter_texto">Nome da Equipe:</span>
                         <div class="espaço_cadastro"></div>
                     </div>
-                    <div class="item_cadastro">
-                        <span class="letter_texto">E-mail:</span>
-                        <div class="espaço_cadastro"></div>
-                    </div>
-                    <div class="item_cadastro">
-                        <span class="letter_texto">Senha:</span>
-                        <div class="espaço_cadastro"></div>
-                    </div>
-                    <div class="item_cadastro_equipe">
-                        <span class="letter_texto">Equipe:</span>
-                        <div class="espaço_cadastro espaço_equipe">
-                            <div id="triangulo-para-baixo"></div>
+                    <div class="item_cadastro_emblema">
+                        <span class="letter_texto">Emblema:</span>
+                        <div class="espaço_cadastro emblema">
+                            <span>Escolher Imagem</span>
                         </div>
                     </div>
                     <button>Cadastrar</button>
                 </div>
                 <div class="lista_jogadores">
-                    <span class="titulo_listajogadores">Lista de Jogadores</span>
+                    <span class="titulo_listajogadores">Lista de Times</span>
                     <div class="tabela">
                         <div class="letter_texto coluna">
-                            <span class="item_coluna1 linha1 span_coluna1">Nome do Jogador</span>
-                            <span class="item_coluna1 linha2 span_coluna1">Thiago</span>
-                            <span class="item_coluna1 linha3 span_coluna1">Odirlei</span>
+                            <span class="item_coluna1 linha1 span_coluna1">Nome da Equipe</span>
+                            <span class="item_coluna1 linha2 span_coluna1">SENAI Cytechs</span>
+                            <span class="item_coluna1 linha3 span_coluna1">Flamengo</span>
                         </div>
                         <div class="letter_texto coluna"> 
-                            <span class="item_coluna2 linha1">Equipe</span>
-                            <span class="item_coluna2 linha2">SENAI Cytechs</span>
-                            <span class="item_coluna2 linha3">SENAI Cytechs</span>
+                            <span class="item_coluna2 linha1">Emblema</span>
+                            <span class="item_coluna2 linha2"><img src="fla-logo.png" alt="flamengo_logo"></span>
+                            <span class="item_coluna2 linha3"><img src="fla-logo.png" alt="flamengo_logo"></span>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div> 
+        </section>       
     </main>
     <footer>
         <div class="grid">
@@ -103,4 +96,3 @@
         </div>
     </footer>
 </body>
-</html>
