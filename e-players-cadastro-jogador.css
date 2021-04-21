@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.banner_cadastro {
+    height: 237px;
+    width: auto;
+    background-image: url(pilotos.red.png);
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Titillium Web;
+    font-weight: 700;
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro {
+    height: 1110px;
+    background-color: #1E1C21;
+}
+
+.espaçamento_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.caixa_cadastro {
+    width: 770px;
+    height: 629px;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.letter_texto {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.espaço_cadastro {
+    width: 575px;
+    height: 30px;
+    background-color: #ABABAB;;
+}
+
+.item_cadastro_equipe {
+    margin: 60px 0px;
+}
+
+.espaço_equipe {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#triangulo-para-baixo {
+    width: 0px; 
+    height:0px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #1E1C21;
+    margin-right: 10px;
+    }
+
+button {
+    width: 257px;
+    height: 40px;
+    background-color: #C31616;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.lista_jogadores {
+    margin-bottom: 40px;
+}
+
+.titulo_listajogadores {
+    color: #ffffff;
+    font-family: Titillium Web;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.tabela {
+    display: flex;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_coluna1 {
+    width: 405px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-right: none;
+}
+
+.item_coluna2 {
+    width: 365px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-left: none;
+}
+
+.linha1 {
+    background: #010101;
+}
+
+.linha2 {
+    background: none;
+    border-bottom: none;
+}
+
+.linha3 {
+    background: none;
+    border-top: none;
+}
+
+.span_coluna1 {
+    padding: 0px 20px;
+}
