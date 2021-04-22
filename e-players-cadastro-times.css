@@ -16,13 +16,13 @@
     height: 340px;
 }
 
-.item_cadastro_emblema {
-    margin-right: 429px;
-}
-
 .emblema {
     width: 146px;
     height: 30px;
+}
+
+.item_cadastro_emblema {
+    margin-right: 429px;
 }
 
 .emblema span {
