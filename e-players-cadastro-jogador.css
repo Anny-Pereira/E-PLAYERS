@@ -8,6 +8,8 @@
     height: 237px;
     width: auto;
     background-image: url(pilotos.red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -53,29 +55,34 @@ h1 {
     font-size: 20px;
 }
 
-.espaço_cadastro {
+.item_cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
     width: 575px;
     height: 30px;
-    background-color: #ABABAB;;
+    background-color: #ABABAB;
+
 }
 
 .item_cadastro_equipe {
     margin: 60px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width: 575px;
+    height: 30px;
+    background-color: #ABABAB;
 }
 
 .espaço_equipe {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-#triangulo-para-baixo {
-    width: 0px; 
-    height:0px; 
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 15px solid #1E1C21;
-    margin-right: 10px;
 }
 
 button {

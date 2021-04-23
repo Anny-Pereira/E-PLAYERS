@@ -29,14 +29,17 @@
         <section class="cadastro">
             <div class="grid espaçamento_section">
                 <div class="caixa_cadastro">
-                    <div class="item_cadastro">
-                        <span class="letter_texto">Nome da Equipe:</span>
-                        <div class="espaço_cadastro"></div>
-                    </div>
-                    <div class="item_cadastro_emblema">
-                        <span class="letter_texto">Emblema:</span>
-                        <div class="espaço_cadastro emblema">
-                            <span>Escolher Imagem</span>
+                    <div class="itens_cadastro">
+
+                        <div class="item_cadastro">
+                            <span class="letter_texto">Nome da Equipe:</span>
+                            <input type="text">
+                        </div>
+                        <div class="item_cadastro_emblema">
+                            <span class="letter_texto">Emblema:</span>
+                            <label class="label" for="input_emblema">Escolha a Imagem</label>
+                            <input class="input_emblema" type="file" name="input_emblema">
+                
                         </div>
                     </div>
                     <button>Cadastrar</button>

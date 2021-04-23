@@ -16,24 +16,32 @@
     height: 340px;
 }
 
-.emblema {
-    width: 146px;
-    height: 30px;
+.itens_cadastro {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
 }
 
 .item_cadastro_emblema {
-    margin-right: 429px;
+    display: flex;
+    flex-direction: column;
 }
 
-.emblema span {
-    height: 100%;
+.label {
+    width: 146px;
+    height: 30px;
+    background-color: #ABABAB;
+    text-align: center;
+    line-height: 30px;
     color: #000000;
     font-family: Roboto;
     font-weight: normal;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.input_emblema {
+    display: none;
 }
 
 button {
