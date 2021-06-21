@@ -11,7 +11,7 @@
 .banner_cadastro {
     height: 237px;
     width: auto;
-    background-image: url(pilotos.red.png);
+    background-image: url("../Imagens/pilotos.red.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
